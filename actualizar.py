@@ -92,7 +92,7 @@ def construir_datos() -> pd.core.frame.DataFrame:
             # Estadísticas de estudiantes
             nodos = html.select(selectores["estudiantes"])
             for i, campo in enumerate(campos["estudiantes"]):
-                tabla = pd.read_html(str(nodos[i]))[0]
+                tabla = pd.read_html(str(nodos[i]), decimal=',', thousands='.')[0]
                 tabla = tabla.set_index("Sexo").unstack()
                 tabla.index = tabla.index.map(lambda x: f"{campo}_{x[1].lower()}_{x[0]}")
                 datos_unidad.append(tabla.to_dict())
