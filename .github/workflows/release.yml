@@ -1,0 +1,46 @@
+name: Release
+
+on:
+  workflow_dispatch:
+  push:
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Compute next tag
+        id: tag
+        shell: bash
+        run: |
+          git fetch --tags --force
+          latest=$(git tag --list 'v*' --sort=-version:refname | head -n1)
+          if [ -z "$latest" ]; then
+            next="v0.1.0"
+          else
+            ver="${latest#v}"
+            IFS='.' read -r major minor patch <<<"$ver"
+            patch=$((patch + 1))
+            next="v${major}.${minor}.${patch}"
+          fi
+          echo "tag=$next" >> "$GITHUB_OUTPUT"
+
+      - name: Build PDF and publish release
+        uses: mauforonda/datapackage_quarto_release@main
+        with:
+          tag: ${{ steps.tag.outputs.tag }}
+          release_name: ${{ steps.tag.outputs.tag }}
+          release_body: ""
+          datapackage_path: datapackage.json
+          data_paths: |
+            data/unidades_educativas_estado.csv
+            data/unidades_educativas_tiempo.csv
+          qmd_output: datapackage.qmd
+          pdf_output: ficha.pdf

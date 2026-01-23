@@ -5,7 +5,7 @@ import pandas as pd
 estado = pd.read_csv("data/unidades_educativas_estado.csv")
 tiempo = pd.read_csv("data/unidades_educativas_tiempo.csv")
 
-anios = [2017, 2018, 2019]
+anios = [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024]
 total = estado.shape[0]
 area = estado.area.value_counts().to_dict()
 

@@ -1,0 +1,278 @@
+{
+  "name": "unidades_educativas_bolivia",
+  "title": "Unidades Educativas de Bolivia",
+  "version": "1.0.0",
+  "sources": [
+    {
+      "title": "Ministerio de Educacion de Bolivia (SEIE)"
+    }
+  ],
+  "resources": [
+    {
+      "name": "unidades_educativas_estado",
+      "title": "Estado e infraestructura de unidades educativas (CSV)",
+      "description": "Atributos administrativos, ubicacion y condiciones de infraestructura para cada unidad educativa.",
+      "type": "table",
+      "path": "data/unidades_educativas_estado.csv",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "codigo_rue",
+            "type": "integer",
+            "description": "Codigo unico RUE de la unidad educativa."
+          },
+          {
+            "name": "geoserver_id",
+            "type": "integer",
+            "description": "Identificador interno del registro en el geoservidor."
+          },
+          {
+            "name": "departamento_codigo",
+            "type": "integer",
+            "description": "Codigo del departamento."
+          },
+          {
+            "name": "departamento",
+            "type": "string",
+            "description": "Nombre del departamento."
+          },
+          {
+            "name": "provincia_codigo",
+            "type": "integer",
+            "description": "Codigo de la provincia."
+          },
+          {
+            "name": "provincia",
+            "type": "string",
+            "description": "Nombre de la provincia."
+          },
+          {
+            "name": "municipio_codigo",
+            "type": "integer",
+            "description": "Codigo del municipio."
+          },
+          {
+            "name": "municipio",
+            "type": "string",
+            "description": "Nombre del municipio."
+          },
+          {
+            "name": "distrito_educativo_codigo",
+            "type": "integer",
+            "description": "Codigo del distrito educativo."
+          },
+          {
+            "name": "distrito_educativo",
+            "type": "string",
+            "description": "Nombre del distrito educativo."
+          },
+          {
+            "name": "cod_le",
+            "type": "integer",
+            "description": "Codigo de la localidad educativa (cod_le)."
+          },
+          {
+            "name": "turnoals",
+            "type": "integer",
+            "description": "Codigo de turno (segun SEIE)."
+          },
+          {
+            "name": "area",
+            "type": "string",
+            "description": "Area geografica (por ejemplo, urbana o rural)."
+          },
+          {
+            "name": "depend",
+            "type": "integer",
+            "description": "Codigo de dependencia administrativa."
+          },
+          {
+            "name": "nivel",
+            "type": "string",
+            "description": "Nivel educativo que ofrece la unidad."
+          },
+          {
+            "name": "des_ue",
+            "type": "string",
+            "description": "Nombre de la unidad educativa."
+          },
+          {
+            "name": "latitud",
+            "type": "number",
+            "description": "Latitud de la unidad educativa."
+          },
+          {
+            "name": "longitud",
+            "type": "number",
+            "description": "Longitud de la unidad educativa."
+          },
+          {
+            "name": "viviendas_maestros",
+            "type": "boolean",
+            "description": "Indica si hay viviendas para maestros."
+          },
+          {
+            "name": "bachillerato_humanistico_numero_de_talleres",
+            "type": "integer",
+            "description": "Numero de talleres del bachillerato humanistico."
+          },
+          {
+            "name": "ambientes_administrativos_dirección",
+            "type": "boolean",
+            "description": "Indica si existe direccion administrativa."
+          },
+          {
+            "name": "ambientes_administrativos_secretaría",
+            "type": "boolean",
+            "description": "Indica si existe secretaria administrativa."
+          },
+          {
+            "name": "ambientes_administrativos_sala_de_reuniones",
+            "type": "boolean",
+            "description": "Indica si existe sala de reuniones administrativa."
+          },
+          {
+            "name": "ambientes_deportivos_numero_de_canchas",
+            "type": "integer",
+            "description": "Numero de canchas deportivas."
+          },
+          {
+            "name": "ambientes_deportivos_numero_de_gimnasios",
+            "type": "integer",
+            "description": "Numero de gimnasios."
+          },
+          {
+            "name": "ambientes_deportivos_numero_de_coliseos",
+            "type": "integer",
+            "description": "Numero de coliseos."
+          },
+          {
+            "name": "ambientes_deportivos_numero_de_piscinas",
+            "type": "integer",
+            "description": "Numero de piscinas."
+          },
+          {
+            "name": "ambientes_pedagogicos_numero_de_aulas",
+            "type": "integer",
+            "description": "Numero de aulas."
+          },
+          {
+            "name": "ambientes_pedagogicos_numero_de_laboratorios",
+            "type": "integer",
+            "description": "Numero de laboratorios."
+          },
+          {
+            "name": "ambientes_pedagogicos_numero_de_bibliotecas",
+            "type": "integer",
+            "description": "Numero de bibliotecas."
+          },
+          {
+            "name": "ambientes_pedagogicos_numero_de_salas_de_computación",
+            "type": "integer",
+            "description": "Numero de salas de computacion."
+          },
+          {
+            "name": "agua",
+            "type": "boolean",
+            "description": "Disponibilidad de agua."
+          },
+          {
+            "name": "energia_electrica",
+            "type": "boolean",
+            "description": "Disponibilidad de energia electrica."
+          },
+          {
+            "name": "baterias_de_bano",
+            "type": "boolean",
+            "description": "Disponibilidad de baterias de bano."
+          },
+          {
+            "name": "internet",
+            "type": "boolean",
+            "description": "Disponibilidad de internet."
+          },
+          {
+            "name": "director",
+            "type": "string",
+            "description": "Nombre de la directora o director."
+          },
+          {
+            "name": "direccion",
+            "type": "string",
+            "description": "Direccion de la unidad educativa."
+          },
+          {
+            "name": "telefono",
+            "type": "string",
+            "description": "Telefono de contacto."
+          },
+          {
+            "name": "dependencia",
+            "type": "string",
+            "description": "Dependencia administrativa (por ejemplo, fiscal, privada)."
+          },
+          {
+            "name": "turno",
+            "type": "string",
+            "description": "Turno de funcionamiento."
+          }
+        ]
+      }
+    },
+    {
+      "name": "unidades_educativas_tiempo",
+      "title": "Estadisticas anuales de estudiantes por unidad (CSV)",
+      "description": "Serie temporal de matricula, promovidos, reprobados y abandono por sexo y anio para cada unidad educativa.",
+      "type": "table",
+      "path": "data/unidades_educativas_tiempo.csv",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "codigo_rue",
+            "type": "integer",
+            "description": "Codigo unico RUE de la unidad educativa."
+          },
+          {
+            "name": "variable",
+            "type": "string",
+            "description": "Variable estadistica de estudiantes.",
+            "categories": [
+              "matricula",
+              "promovidos",
+              "reprobados",
+              "abandono"
+            ]
+          },
+          {
+            "name": "sexo",
+            "type": "string",
+            "description": "Sexo reportado en la estadistica.",
+            "categories": [
+              "total",
+              "hombre",
+              "mujer"
+            ]
+          },
+          {
+            "name": "anio",
+            "type": "integer",
+            "description": "Anio del registro."
+          },
+          {
+            "name": "valor",
+            "type": "integer",
+            "description": "Valor numerico de la variable en el anio y sexo indicados."
+          }
+        ]
+      }
+    }
+  ]
+}
