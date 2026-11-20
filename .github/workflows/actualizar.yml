@@ -1,0 +1,79 @@
+name: Actualizar datos
+
+on:
+  schedule:
+    - cron: "0 10 * * 1" # lunes
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: actualizar
+  cancel-in-progress: false
+
+jobs:
+  unidades:
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Actualizar unidades.csv y niveles.csv
+        run: python actualizar.py --completo
+      - uses: actions/upload-artifact@v4
+        with:
+          name: unidades
+          path: |
+            unidades.csv
+            niveles.csv
+
+  matricula:
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Actualizar matricula.csv y flujo.csv
+        run: python actualizar_matricula.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: matricula
+          path: |
+            matricula.csv
+            flujo.csv
+
+  guardar:
+    needs: [unidades, matricula]
+    if: ${{ !cancelled() && (needs.unidades.result == 'success' || needs.matricula.result == 'success') }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      # Solo se copian los datos de los jobs que terminaron bien.
+      - if: needs.unidades.result == 'success'
+        uses: actions/download-artifact@v4
+        with:
+          name: unidades
+      - if: needs.matricula.result == 'success'
+        uses: actions/download-artifact@v4
+        with:
+          name: matricula
+      - name: Guardar cambios
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898333+github-actions[bot]@users.noreply.github.com"
+          git add unidades.csv niveles.csv matricula.csv flujo.csv
+          if git diff --cached --quiet; then
+            echo "Sin cambios."
+          else
+            git commit -m "Actualizar datos ($(date -u +%F))"
+            git push
+          fi

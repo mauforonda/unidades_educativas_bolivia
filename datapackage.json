@@ -1,278 +1,438 @@
 {
-  "name": "unidades_educativas_bolivia",
-  "title": "Unidades Educativas de Bolivia",
-  "version": "1.0.0",
+  "$schema": "https://datapackage.org/profiles/2.0/datapackage.json",
+  "name": "rue-bolivia",
+  "title": "Unidades educativas de Bolivia: registro, niveles, matrícula y flujo",
+  "description": "Registro de Unidades Educativas (RUE) del Ministerio de Educación de Bolivia, con coordenadas y niveles autorizados, y matrícula y flujo de estudiantes de Educación Regular de la gestión que publica el Sistema de Información Educativa (SIE). Los datos de matrícula y flujo son preliminares: reflejan el estado del sistema al momento de la consulta.",
+  "homepage": "https://github.com/mauforonda/unidades_educativas_bolivia",
+  "keywords": [
+    "educación",
+    "Bolivia",
+    "unidades educativas",
+    "RUE",
+    "matrícula",
+    "abandono escolar"
+  ],
   "sources": [
     {
-      "title": "Ministerio de Educacion de Bolivia (SEIE)"
+      "title": "Registro de Unidades Educativas, consulta pública",
+      "path": "https://rue.sie.gob.bo/accesopub/consultarue/"
+    },
+    {
+      "title": "Reportes estadísticos del Sistema de Información Educativa",
+      "path": "https://reportes.sie.gob.bo/reporteestadistico/"
     }
   ],
+  "idioma": "es",
+  "primer_paso": "El código rue une las cuatro tablas. Filtre unidades abiertas con abierta. En matricula.csv sume estudiantes (no cuente filas) y filtre por gestion. niveles.csv tiene niveles autorizados, no niveles con estudiantes. Matrícula y flujo cubren solo Educación Regular. Lea 'advertencias' antes de comparar gestiones o medir abandono.",
   "resources": [
     {
-      "name": "unidades_educativas_estado",
-      "title": "Estado e infraestructura de unidades educativas (CSV)",
-      "description": "Atributos administrativos, ubicacion y condiciones de infraestructura para cada unidad educativa.",
+      "name": "unidades",
+      "title": "Unidades educativas",
+      "description": "Una fila por unidad educativa registrada en el RUE, abierta o cerrada.",
+      "path": "unidades.csv",
       "type": "table",
-      "path": "data/unidades_educativas_estado.csv",
-      "scheme": "file",
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
       "schema": {
         "fields": [
           {
-            "name": "codigo_rue",
+            "name": "rue",
+            "title": "Código RUE",
             "type": "integer",
-            "description": "Codigo unico RUE de la unidad educativa."
+            "description": "Código de la unidad educativa en el Registro de Unidades Educativas. Es el identificador común de todas las tablas.",
+            "constraints": {
+              "required": true,
+              "unique": true
+            }
           },
           {
-            "name": "geoserver_id",
+            "name": "le",
+            "title": "Código de local educativo",
             "type": "integer",
-            "description": "Identificador interno del registro en el geoservidor."
+            "description": "Código del local educativo (el edificio). Varias unidades pueden compartir un local.",
+            "constraints": {
+              "required": true
+            }
           },
           {
-            "name": "departamento_codigo",
-            "type": "integer",
-            "description": "Codigo del departamento."
-          },
-          {
-            "name": "departamento",
+            "name": "nombre",
+            "title": "Nombre",
             "type": "string",
-            "description": "Nombre del departamento."
+            "description": "Nombre de la unidad educativa, tal como lo publica el RUE.",
+            "constraints": {
+              "required": true
+            }
           },
           {
-            "name": "provincia_codigo",
-            "type": "integer",
-            "description": "Codigo de la provincia."
-          },
-          {
-            "name": "provincia",
-            "type": "string",
-            "description": "Nombre de la provincia."
-          },
-          {
-            "name": "municipio_codigo",
-            "type": "integer",
-            "description": "Codigo del municipio."
-          },
-          {
-            "name": "municipio",
-            "type": "string",
-            "description": "Nombre del municipio."
-          },
-          {
-            "name": "distrito_educativo_codigo",
-            "type": "integer",
-            "description": "Codigo del distrito educativo."
-          },
-          {
-            "name": "distrito_educativo",
-            "type": "string",
-            "description": "Nombre del distrito educativo."
-          },
-          {
-            "name": "cod_le",
-            "type": "integer",
-            "description": "Codigo de la localidad educativa (cod_le)."
-          },
-          {
-            "name": "turnoals",
-            "type": "integer",
-            "description": "Codigo de turno (segun SEIE)."
-          },
-          {
-            "name": "area",
-            "type": "string",
-            "description": "Area geografica (por ejemplo, urbana o rural)."
-          },
-          {
-            "name": "depend",
-            "type": "integer",
-            "description": "Codigo de dependencia administrativa."
-          },
-          {
-            "name": "nivel",
-            "type": "string",
-            "description": "Nivel educativo que ofrece la unidad."
-          },
-          {
-            "name": "des_ue",
-            "type": "string",
-            "description": "Nombre de la unidad educativa."
-          },
-          {
-            "name": "latitud",
-            "type": "number",
-            "description": "Latitud de la unidad educativa."
-          },
-          {
-            "name": "longitud",
-            "type": "number",
-            "description": "Longitud de la unidad educativa."
-          },
-          {
-            "name": "viviendas_maestros",
+            "name": "abierta",
+            "title": "Abierta",
             "type": "boolean",
-            "description": "Indica si hay viviendas para maestros."
-          },
-          {
-            "name": "bachillerato_humanistico_numero_de_talleres",
-            "type": "integer",
-            "description": "Numero de talleres del bachillerato humanistico."
-          },
-          {
-            "name": "ambientes_administrativos_dirección",
-            "type": "boolean",
-            "description": "Indica si existe direccion administrativa."
-          },
-          {
-            "name": "ambientes_administrativos_secretaría",
-            "type": "boolean",
-            "description": "Indica si existe secretaria administrativa."
-          },
-          {
-            "name": "ambientes_administrativos_sala_de_reuniones",
-            "type": "boolean",
-            "description": "Indica si existe sala de reuniones administrativa."
-          },
-          {
-            "name": "ambientes_deportivos_numero_de_canchas",
-            "type": "integer",
-            "description": "Numero de canchas deportivas."
-          },
-          {
-            "name": "ambientes_deportivos_numero_de_gimnasios",
-            "type": "integer",
-            "description": "Numero de gimnasios."
-          },
-          {
-            "name": "ambientes_deportivos_numero_de_coliseos",
-            "type": "integer",
-            "description": "Numero de coliseos."
-          },
-          {
-            "name": "ambientes_deportivos_numero_de_piscinas",
-            "type": "integer",
-            "description": "Numero de piscinas."
-          },
-          {
-            "name": "ambientes_pedagogicos_numero_de_aulas",
-            "type": "integer",
-            "description": "Numero de aulas."
-          },
-          {
-            "name": "ambientes_pedagogicos_numero_de_laboratorios",
-            "type": "integer",
-            "description": "Numero de laboratorios."
-          },
-          {
-            "name": "ambientes_pedagogicos_numero_de_bibliotecas",
-            "type": "integer",
-            "description": "Numero de bibliotecas."
-          },
-          {
-            "name": "ambientes_pedagogicos_numero_de_salas_de_computación",
-            "type": "integer",
-            "description": "Numero de salas de computacion."
-          },
-          {
-            "name": "agua",
-            "type": "boolean",
-            "description": "Disponibilidad de agua."
-          },
-          {
-            "name": "energia_electrica",
-            "type": "boolean",
-            "description": "Disponibilidad de energia electrica."
-          },
-          {
-            "name": "baterias_de_bano",
-            "type": "boolean",
-            "description": "Disponibilidad de baterias de bano."
-          },
-          {
-            "name": "internet",
-            "type": "boolean",
-            "description": "Disponibilidad de internet."
-          },
-          {
-            "name": "director",
-            "type": "string",
-            "description": "Nombre de la directora o director."
-          },
-          {
-            "name": "direccion",
-            "type": "string",
-            "description": "Direccion de la unidad educativa."
-          },
-          {
-            "name": "telefono",
-            "type": "string",
-            "description": "Telefono de contacto."
+            "description": "true si la unidad estaba abierta en la gestión vigente al momento de la consulta; false si estaba cerrada.",
+            "constraints": {
+              "required": true
+            }
           },
           {
             "name": "dependencia",
+            "title": "Dependencia",
             "type": "string",
-            "description": "Dependencia administrativa (por ejemplo, fiscal, privada)."
+            "description": "Tipo de administración de la unidad.",
+            "categories": [
+              "Fiscal",
+              "Convenio",
+              "Privada",
+              "Comunitaria"
+            ],
+            "constraints": {
+              "enum": [
+                "Fiscal",
+                "Convenio",
+                "Privada",
+                "Comunitaria"
+              ]
+            }
           },
           {
-            "name": "turno",
+            "name": "resolucion",
+            "title": "Resolución de creación",
             "type": "string",
-            "description": "Turno de funcionamiento."
+            "description": "Número de la resolución administrativa o ministerial que creó la unidad, en el formato de la fuente (por ejemplo, R.A. 129/2010)."
+          },
+          {
+            "name": "fecha_resolucion",
+            "title": "Fecha de la resolución de creación",
+            "type": "date",
+            "description": "Fecha de la resolución de creación. Vacía cuando la fuente no tiene fecha o tiene una fecha imposible."
+          },
+          {
+            "name": "longitud",
+            "title": "Longitud",
+            "type": "number",
+            "description": "Longitud del local educativo en grados decimales. Vacía cuando la fuente no tiene coordenadas o las coordenadas caen fuera de Bolivia.",
+            "constraints": {
+              "minimum": -70,
+              "maximum": -57
+            }
+          },
+          {
+            "name": "latitud",
+            "title": "Latitud",
+            "type": "number",
+            "description": "Latitud del local educativo en grados decimales. Vacía en los mismos casos que longitud.",
+            "constraints": {
+              "minimum": -23,
+              "maximum": -9.5
+            }
+          }
+        ],
+        "primaryKey": [
+          "rue"
+        ]
+      }
+    },
+    {
+      "name": "niveles",
+      "title": "Niveles autorizados",
+      "description": "Una fila por unidad educativa y nivel que su resolución autoriza. Un nivel autorizado no garantiza que la unidad tenga estudiantes en ese nivel.",
+      "path": "niveles.csv",
+      "type": "table",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "rue",
+            "title": "Código RUE",
+            "type": "integer",
+            "description": "Código de la unidad educativa.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "nivel",
+            "title": "Nivel autorizado",
+            "type": "string",
+            "description": "Nombre del nivel o programa, tal como lo publica el RUE. Educación Regular usa Inicial en Familia Comunitaria, Primaria Comunitaria Vocacional y Secundaria Comunitaria Productiva. Los demás nombres son de Educación Alternativa (por ejemplo EPA, ESA, técnicos y Educación Permanente) y de Educación Especial.",
+            "constraints": {
+              "required": true
+            }
+          }
+        ],
+        "primaryKey": [
+          "rue",
+          "nivel"
+        ],
+        "foreignKeys": [
+          {
+            "fields": [
+              "rue"
+            ],
+            "reference": {
+              "resource": "unidades",
+              "fields": [
+                "rue"
+              ]
+            }
           }
         ]
       }
     },
     {
-      "name": "unidades_educativas_tiempo",
-      "title": "Estadisticas anuales de estudiantes por unidad (CSV)",
-      "description": "Serie temporal de matricula, promovidos, reprobados y abandono por sexo y anio para cada unidad educativa.",
+      "name": "matricula",
+      "title": "Matrícula de Educación Regular",
+      "description": "Estudiantes efectivos de Educación Regular por gestión, unidad, nivel, grado y sexo. Las combinaciones sin estudiantes no tienen fila. Los datos son preliminares y reflejan el estado del sistema al momento de la consulta.",
+      "path": "matricula.csv",
       "type": "table",
-      "path": "data/unidades_educativas_tiempo.csv",
-      "scheme": "file",
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
       "schema": {
         "fields": [
           {
-            "name": "codigo_rue",
+            "name": "gestion",
+            "title": "Gestión",
             "type": "integer",
-            "description": "Codigo unico RUE de la unidad educativa."
+            "description": "Año escolar (gestión) de los datos.",
+            "constraints": {
+              "required": true
+            }
           },
           {
-            "name": "variable",
+            "name": "rue",
+            "title": "Código RUE",
+            "type": "integer",
+            "description": "Código de la unidad educativa.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "nivel",
+            "title": "Nivel",
             "type": "string",
-            "description": "Variable estadistica de estudiantes.",
+            "description": "Nivel de Educación Regular: inicial (Inicial en Familia Comunitaria), primaria (Primaria Comunitaria Vocacional) o secundaria (Secundaria Comunitaria Productiva).",
             "categories": [
-              "matricula",
-              "promovidos",
-              "reprobados",
-              "abandono"
-            ]
+              "inicial",
+              "primaria",
+              "secundaria"
+            ],
+            "constraints": {
+              "required": true,
+              "enum": [
+                "inicial",
+                "primaria",
+                "secundaria"
+              ]
+            }
+          },
+          {
+            "name": "grado",
+            "title": "Grado",
+            "type": "integer",
+            "description": "Año de escolaridad dentro del nivel. Inicial tiene los grados 1 y 2 (probablemente pre-kínder y kínder). Primaria y secundaria tienen los grados 1 a 6.",
+            "constraints": {
+              "required": true,
+              "minimum": 1,
+              "maximum": 6
+            }
           },
           {
             "name": "sexo",
+            "title": "Sexo",
             "type": "string",
-            "description": "Sexo reportado en la estadistica.",
+            "description": "Sexo de los estudiantes.",
             "categories": [
-              "total",
-              "hombre",
-              "mujer"
-            ]
+              "mujer",
+              "hombre"
+            ],
+            "constraints": {
+              "required": true,
+              "enum": [
+                "mujer",
+                "hombre"
+              ]
+            }
           },
           {
-            "name": "anio",
+            "name": "estudiantes",
+            "title": "Estudiantes efectivos",
             "type": "integer",
-            "description": "Anio del registro."
-          },
-          {
-            "name": "valor",
-            "type": "integer",
-            "description": "Valor numerico de la variable en el anio y sexo indicados."
+            "description": "Número de estudiantes efectivos: inscritos menos no incorporados y menos traslados.",
+            "constraints": {
+              "required": true,
+              "minimum": 1
+            }
           }
+        ],
+        "primaryKey": [
+          "gestion",
+          "rue",
+          "nivel",
+          "grado",
+          "sexo"
         ]
       }
+    },
+    {
+      "name": "flujo",
+      "title": "Flujo de estudiantes de Educación Regular",
+      "description": "Movimiento de estudiantes de Educación Regular por gestión y unidad. Los datos son preliminares y reflejan el estado del sistema al momento de la consulta.",
+      "path": "flujo.csv",
+      "type": "table",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "gestion",
+            "title": "Gestión",
+            "type": "integer",
+            "description": "Año escolar (gestión) de los datos.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "rue",
+            "title": "Código RUE",
+            "type": "integer",
+            "description": "Código de la unidad educativa.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "inscritos",
+            "title": "Inscritos",
+            "type": "integer",
+            "description": "Estudiantes que se inscribieron en la unidad durante la gestión.",
+            "constraints": {
+              "required": true,
+              "minimum": 0
+            }
+          },
+          {
+            "name": "no_incorporados",
+            "title": "No incorporados",
+            "type": "integer",
+            "description": "Estudiantes que se inscribieron pero nunca asistieron a clases.",
+            "constraints": {
+              "required": true,
+              "minimum": 0
+            }
+          },
+          {
+            "name": "abandono",
+            "title": "Retirados por abandono",
+            "type": "integer",
+            "description": "Estudiantes que asistieron a clases, dejaron la unidad y no se inscribieron en otra unidad durante la gestión. Efectivos no resta este valor.",
+            "constraints": {
+              "required": true,
+              "minimum": 0
+            }
+          },
+          {
+            "name": "traslado",
+            "title": "Retirados por traslado",
+            "type": "integer",
+            "description": "Estudiantes que dejaron la unidad para inscribirse en otra unidad.",
+            "constraints": {
+              "required": true,
+              "minimum": 0
+            }
+          },
+          {
+            "name": "efectivos",
+            "title": "Efectivos",
+            "type": "integer",
+            "description": "Estudiantes que se incorporaron a la unidad, sin los traslados. En general, efectivos = inscritos - no_incorporados - traslado, y es igual a la suma de estudiantes de la unidad en matricula. Este valor no mide cuántos estudiantes asisten al final del año.",
+            "constraints": {
+              "required": true,
+              "minimum": 0
+            }
+          }
+        ],
+        "primaryKey": [
+          "gestion",
+          "rue"
+        ]
+      }
+    }
+  ],
+  "advertencias": [
+    {
+      "id": "solo_regular",
+      "texto": "matricula.csv y flujo.csv cubren solo Educación Regular (inicial, primaria y secundaria). Las unidades de Educación Alternativa y Especial no tienen datos de estudiantes."
+    },
+    {
+      "id": "datos_preliminares",
+      "texto": "El SIE publica solo la gestión vigente y no indica fecha de corte. Matrícula y flujo muestran el estado del sistema el día de la consulta y cambian durante el año. Para comparar gestiones, use el mismo momento del año (historial de git)."
+    },
+    {
+      "id": "niveles_autorizados",
+      "texto": "niveles.csv lista los niveles que autoriza la resolución de la unidad. Una unidad puede tener un nivel autorizado sin estudiantes. Para niveles en funcionamiento use matricula.csv."
+    },
+    {
+      "id": "nombres_de_nivel",
+      "texto": "matricula.csv usa inicial, primaria y secundaria. niveles.csv usa Inicial en Familia Comunitaria, Primaria Comunitaria Vocacional y Secundaria Comunitaria Productiva. No una las tablas por el nombre del nivel."
+    },
+    {
+      "id": "ceros_ausentes",
+      "texto": "matricula.csv no tiene filas con cero estudiantes. Una combinación ausente tiene cero estudiantes. Un valor vacío en cualquier tabla significa que la fuente no tiene el dato, no cero."
+    },
+    {
+      "id": "efectivos_incluye_abandono",
+      "texto": "efectivos = inscritos - no_incorporados - traslado. No resta el abandono, así que no mide los estudiantes al final del año. En algunas unidades la fuente no cumple la relación, y en unas pocas efectivos no es igual a la suma de matricula.csv. Las tablas conservan los valores de la fuente."
+    },
+    {
+      "id": "coordenadas_del_local",
+      "texto": "Las coordenadas son del local educativo (le). Las unidades de un mismo local tienen el mismo punto. Para contar edificios agrupe por le. Las tablas no tienen departamento ni municipio: use las coordenadas con límites administrativos de la fecha que necesite."
+    }
+  ],
+  "ejemplos": [
+    {
+      "titulo": "Contar unidades",
+      "duckdb": "SELECT dependencia, count(*) AS unidades FROM 'unidades.csv' WHERE abierta GROUP BY dependencia ORDER BY unidades DESC;"
+    },
+    {
+      "titulo": "Contar estudiantes",
+      "duckdb": "SELECT nivel, grado, sexo, sum(estudiantes) AS estudiantes FROM 'matricula.csv' WHERE gestion = (SELECT max(gestion) FROM 'matricula.csv') GROUP BY ALL ORDER BY ALL;"
+    },
+    {
+      "titulo": "Saber qué niveles ofrece una unidad",
+      "duckdb": "SELECT count(*) AS unidades FROM 'unidades.csv' u WHERE u.abierta AND u.rue IN (SELECT rue FROM 'niveles.csv' WHERE nivel = 'Secundaria Comunitaria Productiva') AND u.rue NOT IN ( SELECT rue FROM 'matricula.csv' WHERE nivel = 'secundaria' AND gestion = (SELECT max(gestion) FROM 'matricula.csv') );"
+    },
+    {
+      "titulo": "Saber qué niveles ofrece una unidad",
+      "duckdb": "SELECT nivel, count(*) AS unidades FROM 'niveles.csv' GROUP BY nivel ORDER BY unidades DESC;"
+    },
+    {
+      "titulo": "Medir abandono o traslados",
+      "duckdb": "SELECT u.dependencia, sum(f.abandono) AS abandono, sum(f.traslado) AS traslado, sum(f.efectivos) AS efectivos, round(100.0 * sum(f.abandono) / sum(f.efectivos), 2) AS abandono_pct FROM 'flujo.csv' f JOIN 'unidades.csv' u USING (rue) WHERE f.gestion = (SELECT max(gestion) FROM 'flujo.csv') GROUP BY u.dependencia ORDER BY abandono_pct DESC;"
+    },
+    {
+      "titulo": "Medir abandono o traslados",
+      "duckdb": "SELECT count(*) FILTER (WHERE efectivos <> inscritos - no_incorporados - traslado) AS distintas, count(*) AS unidades FROM 'flujo.csv' WHERE gestion = (SELECT max(gestion) FROM 'flujo.csv');"
+    },
+    {
+      "titulo": "Ubicar unidades en un mapa",
+      "duckdb": "SELECT u.le, any_value(u.longitud) AS longitud, any_value(u.latitud) AS latitud, count(DISTINCT u.rue) AS unidades, sum(m.estudiantes) AS estudiantes FROM 'unidades.csv' u JOIN 'matricula.csv' m USING (rue) WHERE m.gestion = (SELECT max(gestion) FROM 'matricula.csv') AND u.longitud IS NOT NULL GROUP BY u.le ORDER BY u.le;"
+    },
+    {
+      "titulo": "Ubicar unidades en un mapa",
+      "duckdb": "INSTALL spatial; LOAD spatial; SELECT m.*, u.rue FROM 'unidades.csv' u JOIN ST_Read('municipios.geojson') m ON ST_Contains(m.geom, ST_Point(u.longitud, u.latitud));"
+    },
+    {
+      "titulo": "Comparar gestiones",
+      "duckdb": "SELECT gestion, count(DISTINCT rue) AS unidades, sum(estudiantes) AS estudiantes FROM 'matricula.csv' GROUP BY gestion ORDER BY gestion;"
+    },
+    {
+      "titulo": "Trabajar con fechas de creación",
+      "duckdb": "SELECT decada, count(*) AS unidades FROM (SELECT year(fecha_resolucion) // 10 * 10 AS decada FROM 'unidades.csv' WHERE fecha_resolucion IS NOT NULL) GROUP BY decada ORDER BY decada;"
     }
   ]
 }
