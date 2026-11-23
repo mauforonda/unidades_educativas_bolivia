@@ -3748,7 +3748,7 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,40630011,primaria,4,hombre,7
 2026,40630011,primaria,4,mujer,3
 2026,40630011,primaria,5,hombre,6
-2026,40630011,primaria,5,mujer,3
+2026,40630011,primaria,5,mujer,2
 2026,40630011,primaria,6,hombre,9
 2026,40630011,secundaria,1,hombre,9
 2026,40630011,secundaria,1,mujer,10
@@ -4952,7 +4952,7 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,40630078,primaria,4,hombre,2
 2026,40630078,primaria,4,mujer,1
 2026,40630078,primaria,5,hombre,2
-2026,40630078,primaria,5,mujer,4
+2026,40630078,primaria,5,mujer,5
 2026,40630078,primaria,6,hombre,1
 2026,40630078,primaria,6,mujer,3
 2026,40630079,inicial,2,hombre,1
@@ -7068,7 +7068,7 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,40730019,secundaria,3,hombre,95
 2026,40730019,secundaria,3,mujer,98
 2026,40730019,secundaria,4,hombre,57
-2026,40730019,secundaria,4,mujer,79
+2026,40730019,secundaria,4,mujer,80
 2026,40730019,secundaria,5,hombre,76
 2026,40730019,secundaria,5,mujer,68
 2026,40730019,secundaria,6,hombre,76
@@ -7095,7 +7095,6 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,40730021,secundaria,2,mujer,7
 2026,40730021,secundaria,3,hombre,19
 2026,40730021,secundaria,3,mujer,16
-2026,40730021,secundaria,4,hombre,6
 2026,40730021,secundaria,4,mujer,13
 2026,40730021,secundaria,5,hombre,9
 2026,40730021,secundaria,5,mujer,14
@@ -7883,8 +7882,8 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,40730070,secundaria,6,mujer,14
 2026,40730071,inicial,1,hombre,13
 2026,40730071,inicial,1,mujer,24
-2026,40730071,inicial,2,hombre,22
-2026,40730071,inicial,2,mujer,25
+2026,40730071,inicial,2,hombre,21
+2026,40730071,inicial,2,mujer,26
 2026,40730071,primaria,1,hombre,27
 2026,40730071,primaria,1,mujer,28
 2026,40730071,primaria,2,hombre,31
@@ -8331,8 +8330,8 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,40730100,secundaria,4,mujer,40
 2026,40730100,secundaria,5,hombre,23
 2026,40730100,secundaria,5,mujer,38
-2026,40730100,secundaria,6,hombre,35
-2026,40730100,secundaria,6,mujer,29
+2026,40730100,secundaria,6,hombre,36
+2026,40730100,secundaria,6,mujer,28
 2026,40730101,inicial,1,hombre,31
 2026,40730101,inicial,1,mujer,27
 2026,40730101,inicial,2,hombre,18
@@ -28819,7 +28818,7 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,51920012,inicial,1,mujer,2
 2026,51920012,inicial,2,hombre,5
 2026,51920012,inicial,2,mujer,6
-2026,51920012,primaria,1,hombre,2
+2026,51920012,primaria,1,hombre,3
 2026,51920012,primaria,1,mujer,3
 2026,51920012,primaria,2,hombre,2
 2026,51920012,primaria,2,mujer,1
@@ -35902,7 +35901,7 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,60640005,secundaria,3,hombre,4
 2026,60640005,secundaria,3,mujer,6
 2026,60640005,secundaria,4,hombre,3
-2026,60640005,secundaria,4,mujer,4
+2026,60640005,secundaria,4,mujer,3
 2026,60640005,secundaria,5,hombre,5
 2026,60640005,secundaria,5,mujer,7
 2026,60640005,secundaria,6,hombre,5
@@ -37859,7 +37858,7 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,60680028,inicial,2,hombre,7
 2026,60680028,inicial,2,mujer,15
 2026,60680028,primaria,1,hombre,6
-2026,60680028,primaria,1,mujer,7
+2026,60680028,primaria,1,mujer,6
 2026,60680028,primaria,2,hombre,9
 2026,60680028,primaria,2,mujer,10
 2026,60680028,primaria,3,hombre,6
@@ -48838,7 +48837,7 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,61710002,secundaria,2,mujer,38
 2026,61710002,secundaria,3,hombre,31
 2026,61710002,secundaria,3,mujer,35
-2026,61710002,secundaria,4,hombre,28
+2026,61710002,secundaria,4,hombre,27
 2026,61710002,secundaria,4,mujer,39
 2026,61710002,secundaria,5,hombre,22
 2026,61710002,secundaria,5,mujer,30
@@ -48992,7 +48991,7 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,61710011,secundaria,2,mujer,5
 2026,61710011,secundaria,3,hombre,21
 2026,61710011,secundaria,3,mujer,8
-2026,61710011,secundaria,4,hombre,18
+2026,61710011,secundaria,4,hombre,19
 2026,61710011,secundaria,4,mujer,10
 2026,61710011,secundaria,5,hombre,12
 2026,61710011,secundaria,5,mujer,12
@@ -49539,7 +49538,7 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,61710044,inicial,1,mujer,15
 2026,61710044,inicial,2,hombre,18
 2026,61710044,inicial,2,mujer,22
-2026,61710044,primaria,1,hombre,27
+2026,61710044,primaria,1,hombre,26
 2026,61710044,primaria,1,mujer,23
 2026,61710044,primaria,2,hombre,19
 2026,61710044,primaria,2,mujer,27
@@ -53527,8 +53526,8 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,61920012,secundaria,4,mujer,36
 2026,61920012,secundaria,5,hombre,27
 2026,61920012,secundaria,5,mujer,27
-2026,61920012,secundaria,6,hombre,27
-2026,61920012,secundaria,6,mujer,42
+2026,61920012,secundaria,6,hombre,28
+2026,61920012,secundaria,6,mujer,41
 2026,61920013,inicial,1,hombre,7
 2026,61920013,inicial,1,mujer,1
 2026,61920013,inicial,2,hombre,4
@@ -55459,13 +55458,13 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,61980001,primaria,1,mujer,17
 2026,61980001,primaria,2,hombre,16
 2026,61980001,primaria,2,mujer,14
-2026,61980001,primaria,3,hombre,30
+2026,61980001,primaria,3,hombre,31
 2026,61980001,primaria,3,mujer,24
 2026,61980001,primaria,4,hombre,20
 2026,61980001,primaria,4,mujer,14
 2026,61980001,primaria,5,hombre,19
 2026,61980001,primaria,5,mujer,17
-2026,61980001,primaria,6,hombre,18
+2026,61980001,primaria,6,hombre,19
 2026,61980001,primaria,6,mujer,15
 2026,61980002,secundaria,1,hombre,42
 2026,61980002,secundaria,1,mujer,43
@@ -56178,6 +56177,7 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,62210006,primaria,2,hombre,7
 2026,62210006,primaria,2,mujer,11
 2026,62210006,primaria,3,hombre,13
+2026,62210006,primaria,3,mujer,5
 2026,62210006,primaria,4,hombre,17
 2026,62210006,primaria,4,mujer,9
 2026,62210006,primaria,5,hombre,5
@@ -56256,6 +56256,7 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,62210010,primaria,1,mujer,4
 2026,62210010,primaria,2,hombre,5
 2026,62210010,primaria,2,mujer,6
+2026,62210010,primaria,3,hombre,3
 2026,62210010,primaria,3,mujer,4
 2026,62210010,primaria,4,hombre,4
 2026,62210010,primaria,4,mujer,3
@@ -56346,6 +56347,7 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,62210016,primaria,5,mujer,1
 2026,62210016,primaria,6,hombre,1
 2026,62210016,primaria,6,mujer,2
+2026,62210016,secundaria,1,hombre,1
 2026,62210016,secundaria,1,mujer,1
 2026,62210016,secundaria,2,hombre,4
 2026,62210016,secundaria,2,mujer,4
@@ -62337,8 +62339,8 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,70460028,secundaria,5,mujer,8
 2026,70460028,secundaria,6,hombre,3
 2026,70460028,secundaria,6,mujer,5
-2026,70460030,inicial,1,hombre,2
-2026,70460030,inicial,1,mujer,4
+2026,70460030,inicial,1,hombre,3
+2026,70460030,inicial,1,mujer,3
 2026,70460030,inicial,2,hombre,4
 2026,70460030,inicial,2,mujer,5
 2026,70460031,primaria,1,hombre,1
@@ -62750,7 +62752,7 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,70470029,secundaria,4,hombre,11
 2026,70470029,secundaria,4,mujer,12
 2026,70470029,secundaria,5,hombre,8
-2026,70470029,secundaria,5,mujer,11
+2026,70470029,secundaria,5,mujer,12
 2026,70470029,secundaria,6,hombre,8
 2026,70470029,secundaria,6,mujer,9
 2026,70470030,inicial,1,hombre,1
@@ -93653,7 +93655,7 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,71940004,secundaria,3,mujer,24
 2026,71940004,secundaria,4,hombre,22
 2026,71940004,secundaria,4,mujer,22
-2026,71940004,secundaria,5,hombre,19
+2026,71940004,secundaria,5,hombre,20
 2026,71940004,secundaria,5,mujer,19
 2026,71940004,secundaria,6,hombre,9
 2026,71940004,secundaria,6,mujer,13
@@ -94108,7 +94110,7 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,71940031,primaria,1,mujer,28
 2026,71940031,primaria,2,hombre,28
 2026,71940031,primaria,2,mujer,35
-2026,71940031,primaria,3,hombre,27
+2026,71940031,primaria,3,hombre,28
 2026,71940031,primaria,3,mujer,38
 2026,71940031,primaria,4,hombre,45
 2026,71940031,primaria,4,mujer,47
@@ -98190,7 +98192,7 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,72210014,primaria,6,hombre,1
 2026,72210014,primaria,6,mujer,2
 2026,72210015,primaria,2,hombre,6
-2026,72210015,primaria,2,mujer,3
+2026,72210015,primaria,2,mujer,2
 2026,72210015,primaria,3,hombre,1
 2026,72210015,primaria,3,mujer,3
 2026,72210015,primaria,4,hombre,8
@@ -99496,6 +99498,7 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,72210102,secundaria,4,hombre,2
 2026,72210102,secundaria,5,mujer,1
 2026,72210103,primaria,2,hombre,1
+2026,72210103,primaria,2,mujer,1
 2026,72210103,primaria,3,mujer,1
 2026,72210103,primaria,4,hombre,1
 2026,72210103,primaria,5,hombre,1
@@ -100567,7 +100570,7 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,72220025,inicial,2,mujer,20
 2026,72220025,primaria,1,hombre,34
 2026,72220025,primaria,1,mujer,24
-2026,72220025,primaria,2,hombre,27
+2026,72220025,primaria,2,hombre,28
 2026,72220025,primaria,2,mujer,17
 2026,72220025,primaria,3,hombre,36
 2026,72220025,primaria,3,mujer,28
@@ -100638,16 +100641,16 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,72220030,inicial,2,hombre,19
 2026,72220030,inicial,2,mujer,17
 2026,72220030,primaria,1,hombre,25
-2026,72220030,primaria,1,mujer,19
+2026,72220030,primaria,1,mujer,20
 2026,72220030,primaria,2,hombre,17
 2026,72220030,primaria,2,mujer,20
 2026,72220030,primaria,3,hombre,16
 2026,72220030,primaria,3,mujer,18
-2026,72220030,primaria,4,hombre,23
+2026,72220030,primaria,4,hombre,24
 2026,72220030,primaria,4,mujer,21
 2026,72220030,primaria,5,hombre,25
 2026,72220030,primaria,5,mujer,21
-2026,72220030,primaria,6,hombre,28
+2026,72220030,primaria,6,hombre,29
 2026,72220030,primaria,6,mujer,20
 2026,72220031,primaria,1,hombre,3
 2026,72220031,primaria,1,mujer,3
@@ -101507,7 +101510,7 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,72440002,inicial,1,hombre,2
 2026,72440002,inicial,2,hombre,3
 2026,72440002,inicial,2,mujer,1
-2026,72440002,primaria,2,hombre,3
+2026,72440002,primaria,2,hombre,2
 2026,72440002,primaria,3,hombre,1
 2026,72440002,primaria,3,mujer,2
 2026,72440002,primaria,5,hombre,1
@@ -107216,8 +107219,8 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,80480042,secundaria,4,mujer,24
 2026,80480042,secundaria,5,hombre,12
 2026,80480042,secundaria,5,mujer,24
-2026,80480042,secundaria,6,hombre,11
-2026,80480042,secundaria,6,mujer,21
+2026,80480042,secundaria,6,hombre,10
+2026,80480042,secundaria,6,mujer,22
 2026,80480043,secundaria,1,hombre,25
 2026,80480043,secundaria,1,mujer,21
 2026,80480043,secundaria,2,hombre,22
@@ -107321,7 +107324,7 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,80480051,primaria,3,hombre,28
 2026,80480051,primaria,3,mujer,21
 2026,80480051,primaria,4,hombre,29
-2026,80480051,primaria,4,mujer,13
+2026,80480051,primaria,4,mujer,14
 2026,80480051,primaria,5,hombre,31
 2026,80480051,primaria,5,mujer,27
 2026,80480051,primaria,6,hombre,28
@@ -107613,7 +107616,7 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,80480082,secundaria,4,hombre,33
 2026,80480082,secundaria,4,mujer,40
 2026,80480082,secundaria,5,hombre,19
-2026,80480082,secundaria,5,mujer,35
+2026,80480082,secundaria,5,mujer,34
 2026,80480082,secundaria,6,hombre,38
 2026,80480082,secundaria,6,mujer,32
 2026,80480083,inicial,1,hombre,55
@@ -108483,7 +108486,7 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,80480160,primaria,6,mujer,53
 2026,80480161,secundaria,1,hombre,165
 2026,80480161,secundaria,2,hombre,162
-2026,80480161,secundaria,3,hombre,159
+2026,80480161,secundaria,3,hombre,158
 2026,80480161,secundaria,4,hombre,142
 2026,80480161,secundaria,5,hombre,139
 2026,80480161,secundaria,6,hombre,130
@@ -109096,7 +109099,7 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,80480212,primaria,3,hombre,26
 2026,80480212,primaria,3,mujer,23
 2026,80480212,primaria,4,hombre,29
-2026,80480212,primaria,4,mujer,31
+2026,80480212,primaria,4,mujer,30
 2026,80480212,primaria,5,hombre,39
 2026,80480212,primaria,5,mujer,29
 2026,80480212,primaria,6,hombre,32
@@ -109608,7 +109611,7 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,80480276,secundaria,1,mujer,8
 2026,80480276,secundaria,2,hombre,12
 2026,80480276,secundaria,2,mujer,6
-2026,80480276,secundaria,3,hombre,11
+2026,80480276,secundaria,3,hombre,12
 2026,80480276,secundaria,3,mujer,4
 2026,80480276,secundaria,4,hombre,16
 2026,80480276,secundaria,4,mujer,12
@@ -110602,6 +110605,7 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,80540022,primaria,5,hombre,2
 2026,80540022,primaria,5,mujer,2
 2026,80540022,primaria,6,hombre,3
+2026,80540022,secundaria,3,hombre,12
 2026,80540023,inicial,1,mujer,1
 2026,80540023,inicial,2,mujer,3
 2026,80540023,primaria,1,hombre,1
@@ -111992,7 +111996,6 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,80540155,secundaria,1,mujer,10
 2026,80540155,secundaria,2,hombre,12
 2026,80540155,secundaria,2,mujer,11
-2026,80540155,secundaria,3,hombre,12
 2026,80540155,secundaria,3,mujer,9
 2026,80540155,secundaria,4,hombre,13
 2026,80540155,secundaria,4,mujer,12
@@ -112377,7 +112380,6 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,80540200,inicial,2,mujer,2
 2026,80540200,primaria,1,mujer,2
 2026,80540200,primaria,4,mujer,1
-2026,80540200,primaria,6,hombre,2
 2026,80540200,primaria,6,mujer,1
 2026,80540201,secundaria,1,hombre,18
 2026,80540201,secundaria,1,mujer,13
@@ -127601,7 +127603,7 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,80720002,inicial,2,hombre,23
 2026,80720002,inicial,2,mujer,32
 2026,80720002,primaria,1,hombre,24
-2026,80720002,primaria,1,mujer,29
+2026,80720002,primaria,1,mujer,30
 2026,80720002,primaria,2,hombre,21
 2026,80720002,primaria,2,mujer,20
 2026,80720002,primaria,3,hombre,24
@@ -130114,7 +130116,6 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,80730010,secundaria,5,hombre,14
 2026,80730010,secundaria,5,mujer,13
 2026,80730010,secundaria,6,hombre,14
-2026,80730010,secundaria,6,mujer,12
 2026,80730012,secundaria,1,hombre,77
 2026,80730012,secundaria,1,mujer,65
 2026,80730012,secundaria,2,hombre,101
@@ -130397,7 +130398,6 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,80730043,inicial,2,mujer,29
 2026,80730043,primaria,1,hombre,25
 2026,80730043,primaria,1,mujer,25
-2026,80730043,primaria,2,hombre,39
 2026,80730043,primaria,2,mujer,41
 2026,80730043,primaria,3,hombre,45
 2026,80730043,primaria,3,mujer,45
@@ -130616,6 +130616,7 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,80730069,primaria,3,mujer,7
 2026,80730069,primaria,4,hombre,10
 2026,80730069,primaria,4,mujer,9
+2026,80730069,primaria,5,hombre,1
 2026,80730069,primaria,5,mujer,8
 2026,80730069,primaria,6,hombre,4
 2026,80730069,primaria,6,mujer,5
@@ -131284,6 +131285,7 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,80730126,inicial,1,mujer,8
 2026,80730126,inicial,2,hombre,16
 2026,80730126,inicial,2,mujer,11
+2026,80730126,secundaria,6,mujer,12
 2026,80730127,primaria,1,hombre,27
 2026,80730127,primaria,1,mujer,9
 2026,80730127,primaria,2,hombre,18
@@ -131430,7 +131432,6 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,80730151,secundaria,1,mujer,31
 2026,80730151,secundaria,2,hombre,32
 2026,80730151,secundaria,2,mujer,32
-2026,80730151,secundaria,3,hombre,26
 2026,80730151,secundaria,3,mujer,20
 2026,80730151,secundaria,4,hombre,15
 2026,80730151,secundaria,4,mujer,18
@@ -131674,6 +131675,7 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,80730179,inicial,2,mujer,11
 2026,80730179,primaria,1,hombre,23
 2026,80730179,primaria,1,mujer,14
+2026,80730179,primaria,1,mujer,8
 2026,80730179,primaria,2,hombre,15
 2026,80730179,primaria,2,mujer,21
 2026,80730179,primaria,3,hombre,20
@@ -131684,6 +131686,7 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,80730179,primaria,5,mujer,20
 2026,80730179,primaria,6,hombre,19
 2026,80730179,primaria,6,mujer,30
+2026,80730180,inicial,1,hombre,5
 2026,80730180,secundaria,1,hombre,46
 2026,80730180,secundaria,1,mujer,44
 2026,80730180,secundaria,2,hombre,39
@@ -133699,7 +133702,6 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,80730403,secundaria,1,mujer,120
 2026,80730403,secundaria,2,hombre,79
 2026,80730403,secundaria,2,mujer,119
-2026,80730403,secundaria,3,hombre,63
 2026,80730403,secundaria,3,mujer,123
 2026,80730403,secundaria,4,hombre,70
 2026,80730403,secundaria,4,mujer,134
@@ -133774,7 +133776,6 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,80730412,inicial,1,hombre,1
 2026,80730412,inicial,1,mujer,2
 2026,80730412,inicial,2,hombre,1
-2026,80730412,inicial,2,mujer,1
 2026,80730412,primaria,1,hombre,6
 2026,80730412,primaria,1,mujer,3
 2026,80730412,primaria,2,hombre,5
@@ -133961,7 +133962,6 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,80730431,secundaria,4,mujer,19
 2026,80730431,secundaria,5,hombre,31
 2026,80730431,secundaria,5,mujer,14
-2026,80730431,secundaria,6,hombre,23
 2026,80730431,secundaria,6,mujer,19
 2026,80730432,secundaria,1,hombre,100
 2026,80730432,secundaria,1,mujer,86
@@ -134000,7 +134000,6 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,80730435,secundaria,6,hombre,9
 2026,80730435,secundaria,6,mujer,7
 2026,80730436,inicial,1,hombre,13
-2026,80730436,inicial,1,mujer,9
 2026,80730436,inicial,2,hombre,11
 2026,80730436,inicial,2,mujer,7
 2026,80730436,primaria,1,hombre,12
@@ -134116,7 +134115,6 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,80730446,primaria,1,mujer,12
 2026,80730446,primaria,2,hombre,21
 2026,80730446,primaria,2,mujer,17
-2026,80730446,primaria,3,hombre,22
 2026,80730446,primaria,3,mujer,15
 2026,80730446,primaria,4,hombre,21
 2026,80730446,primaria,4,mujer,16
@@ -134133,7 +134131,6 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,80730446,secundaria,4,hombre,24
 2026,80730446,secundaria,4,mujer,25
 2026,80730446,secundaria,5,hombre,22
-2026,80730446,secundaria,5,mujer,33
 2026,80730446,secundaria,6,hombre,21
 2026,80730446,secundaria,6,mujer,14
 2026,80730447,secundaria,1,hombre,31
@@ -134208,7 +134205,6 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,80730452,primaria,4,hombre,28
 2026,80730452,primaria,4,mujer,22
 2026,80730452,primaria,5,hombre,27
-2026,80730452,primaria,5,mujer,22
 2026,80730452,primaria,6,hombre,24
 2026,80730452,primaria,6,mujer,32
 2026,80730453,primaria,1,hombre,3
@@ -134241,7 +134237,6 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,80730455,primaria,6,mujer,25
 2026,80730456,secundaria,1,hombre,15
 2026,80730456,secundaria,1,mujer,8
-2026,80730456,secundaria,2,hombre,11
 2026,80730456,secundaria,2,mujer,16
 2026,80730456,secundaria,3,hombre,17
 2026,80730456,secundaria,3,mujer,9
@@ -134270,7 +134265,6 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,80730459,secundaria,3,hombre,107
 2026,80730459,secundaria,3,mujer,72
 2026,80730459,secundaria,4,hombre,81
-2026,80730459,secundaria,4,mujer,78
 2026,80730459,secundaria,5,hombre,95
 2026,80730459,secundaria,5,mujer,92
 2026,80730459,secundaria,6,hombre,92
@@ -134565,7 +134559,6 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,80730485,secundaria,4,mujer,51
 2026,80730485,secundaria,5,hombre,25
 2026,80730485,secundaria,5,mujer,48
-2026,80730485,secundaria,6,hombre,22
 2026,80730485,secundaria,6,mujer,36
 2026,80730487,inicial,1,hombre,4
 2026,80730487,inicial,1,mujer,10
@@ -134631,7 +134624,6 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,80730489,primaria,2,hombre,14
 2026,80730489,primaria,2,mujer,4
 2026,80730489,primaria,3,hombre,18
-2026,80730489,primaria,3,mujer,4
 2026,80730489,primaria,4,hombre,12
 2026,80730489,primaria,4,mujer,5
 2026,80730489,primaria,5,hombre,17
@@ -134759,7 +134751,6 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,80730509,inicial,2,hombre,1
 2026,80730509,inicial,2,mujer,1
 2026,80730509,primaria,1,hombre,7
-2026,80730509,primaria,1,mujer,8
 2026,80730509,primaria,2,hombre,4
 2026,80730509,primaria,2,mujer,7
 2026,80730509,primaria,3,hombre,14
@@ -134782,7 +134773,6 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,80730509,secundaria,5,mujer,29
 2026,80730509,secundaria,6,hombre,17
 2026,80730509,secundaria,6,mujer,23
-2026,80730510,inicial,1,hombre,5
 2026,80730510,inicial,1,mujer,7
 2026,80730510,inicial,2,hombre,11
 2026,80730510,inicial,2,mujer,5
@@ -134982,12 +134972,10 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,80730524,primaria,3,mujer,35
 2026,80730524,primaria,4,hombre,36
 2026,80730524,primaria,4,mujer,34
-2026,80730524,primaria,5,hombre,37
 2026,80730524,primaria,5,mujer,31
 2026,80730524,primaria,6,hombre,45
 2026,80730524,primaria,6,mujer,31
 2026,80730524,secundaria,1,hombre,65
-2026,80730524,secundaria,1,mujer,57
 2026,80730524,secundaria,2,hombre,66
 2026,80730524,secundaria,2,mujer,50
 2026,80730524,secundaria,3,hombre,92
@@ -135021,7 +135009,6 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,80730525,secundaria,3,hombre,33
 2026,80730525,secundaria,3,mujer,46
 2026,80730525,secundaria,4,hombre,45
-2026,80730525,secundaria,4,mujer,36
 2026,80730525,secundaria,5,hombre,42
 2026,80730525,secundaria,5,mujer,37
 2026,80730525,secundaria,6,hombre,30
@@ -135142,7 +135129,6 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,80730541,secundaria,2,hombre,6
 2026,80730541,secundaria,2,mujer,9
 2026,80730541,secundaria,3,hombre,9
-2026,80730541,secundaria,3,mujer,11
 2026,80730541,secundaria,4,hombre,7
 2026,80730541,secundaria,4,mujer,12
 2026,80730541,secundaria,5,hombre,9
@@ -136124,7 +136110,6 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,80730739,primaria,2,mujer,12
 2026,80730739,primaria,3,hombre,6
 2026,80730739,primaria,3,mujer,13
-2026,80730739,primaria,4,hombre,15
 2026,80730739,primaria,4,mujer,9
 2026,80730739,primaria,5,hombre,15
 2026,80730739,primaria,5,mujer,19
@@ -136258,7 +136243,6 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,80730759,primaria,4,mujer,15
 2026,80730759,primaria,5,hombre,14
 2026,80730759,primaria,5,mujer,13
-2026,80730759,primaria,6,hombre,11
 2026,80730759,primaria,6,mujer,13
 2026,80730759,secundaria,1,hombre,7
 2026,80730759,secundaria,1,mujer,6
@@ -136640,7 +136624,6 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,80730810,primaria,3,mujer,51
 2026,80730810,primaria,4,hombre,43
 2026,80730810,primaria,4,mujer,43
-2026,80730810,primaria,5,hombre,52
 2026,80730810,primaria,5,mujer,47
 2026,80730810,primaria,6,hombre,60
 2026,80730810,primaria,6,mujer,52
@@ -136676,6 +136659,7 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,80730819,inicial,1,mujer,3
 2026,80730819,inicial,2,hombre,5
 2026,80730819,inicial,2,mujer,3
+2026,80730819,secundaria,3,hombre,63
 2026,80730822,inicial,1,mujer,1
 2026,80730822,primaria,1,hombre,1
 2026,80730822,primaria,4,hombre,2
@@ -136870,7 +136854,6 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,80730899,primaria,2,mujer,1
 2026,80730899,primaria,3,mujer,1
 2026,80730899,primaria,4,hombre,2
-2026,80730899,primaria,4,mujer,1
 2026,80730899,primaria,5,hombre,3
 2026,80730900,inicial,1,hombre,31
 2026,80730900,inicial,1,mujer,42
@@ -137008,7 +136991,6 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,80730939,secundaria,6,hombre,60
 2026,80730939,secundaria,6,mujer,66
 2026,80730940,secundaria,1,hombre,38
-2026,80730940,secundaria,1,mujer,31
 2026,80730940,secundaria,2,hombre,39
 2026,80730940,secundaria,2,mujer,34
 2026,80730940,secundaria,3,hombre,22
@@ -137195,6 +137177,7 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,80730954,inicial,2,hombre,4
 2026,80730954,inicial,2,mujer,4
 2026,80730955,inicial,1,hombre,28
+2026,80730955,inicial,1,mujer,9
 2026,80730955,inicial,1,mujer,23
 2026,80730955,inicial,2,hombre,21
 2026,80730955,inicial,2,mujer,9
@@ -149960,11 +149943,12 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,80980027,primaria,5,mujer,32
 2026,80980027,primaria,6,hombre,33
 2026,80980027,primaria,6,mujer,23
+2026,80980027,secundaria,4,mujer,8
 2026,80980028,secundaria,1,hombre,14
 2026,80980028,secundaria,1,mujer,3
 2026,80980028,secundaria,2,hombre,10
 2026,80980028,secundaria,2,mujer,6
-2026,80980028,secundaria,3,hombre,17
+2026,80980028,secundaria,3,hombre,49
 2026,80980028,secundaria,3,mujer,10
 2026,80980028,secundaria,4,hombre,14
 2026,80980028,secundaria,4,mujer,17
@@ -149976,6 +149960,7 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,80980029,inicial,1,mujer,39
 2026,80980029,inicial,2,hombre,44
 2026,80980029,inicial,2,mujer,48
+2026,80980029,secundaria,3,mujer,31
 2026,80980030,inicial,1,hombre,22
 2026,80980030,inicial,1,mujer,11
 2026,80980030,inicial,2,hombre,45
@@ -150036,6 +150021,7 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,80980034,primaria,5,mujer,24
 2026,80980034,primaria,6,hombre,24
 2026,80980034,primaria,6,mujer,24
+2026,80980035,inicial,2,hombre,2
 2026,80980035,secundaria,1,hombre,9
 2026,80980035,secundaria,1,mujer,18
 2026,80980035,secundaria,2,hombre,13
@@ -150072,6 +150058,7 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,80980038,secundaria,5,mujer,66
 2026,80980038,secundaria,6,hombre,64
 2026,80980038,secundaria,6,mujer,64
+2026,80980039,primaria,4,hombre,11
 2026,80980039,secundaria,1,hombre,5
 2026,80980039,secundaria,1,mujer,3
 2026,80980039,secundaria,2,hombre,11
@@ -150130,12 +150117,14 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,80980043,primaria,4,mujer,23
 2026,80980043,primaria,5,hombre,10
 2026,80980043,primaria,5,mujer,21
+2026,80980043,primaria,5,mujer,13
 2026,80980043,primaria,6,hombre,15
 2026,80980043,primaria,6,mujer,14
 2026,80980044,primaria,1,hombre,7
 2026,80980044,primaria,1,mujer,6
 2026,80980044,primaria,2,hombre,8
 2026,80980044,primaria,2,mujer,7
+2026,80980044,primaria,2,mujer,5
 2026,80980044,primaria,3,hombre,4
 2026,80980044,primaria,3,mujer,9
 2026,80980044,primaria,4,hombre,8
@@ -150287,6 +150276,7 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,80980058,primaria,4,hombre,27
 2026,80980058,primaria,4,mujer,23
 2026,80980058,primaria,5,hombre,26
+2026,80980058,primaria,5,hombre,12
 2026,80980058,primaria,5,mujer,29
 2026,80980058,primaria,6,hombre,26
 2026,80980058,primaria,6,mujer,18
@@ -150741,6 +150731,7 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,80980106,inicial,2,hombre,62
 2026,80980106,inicial,2,mujer,46
 2026,80980107,inicial,1,hombre,55
+2026,80980107,inicial,1,hombre,10
 2026,80980107,inicial,1,mujer,47
 2026,80980107,inicial,2,hombre,28
 2026,80980107,inicial,2,mujer,39
@@ -151913,7 +151904,6 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,80980205,secundaria,3,hombre,22
 2026,80980205,secundaria,3,mujer,15
 2026,80980206,primaria,1,hombre,4
-2026,80980206,primaria,1,mujer,4
 2026,80980206,primaria,2,hombre,6
 2026,80980206,primaria,2,mujer,2
 2026,80980206,primaria,3,hombre,5
@@ -151983,7 +151973,6 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,80980210,primaria,6,hombre,45
 2026,80980210,primaria,6,mujer,46
 2026,80980211,inicial,1,hombre,33
-2026,80980211,inicial,1,mujer,30
 2026,80980211,inicial,2,hombre,48
 2026,80980211,inicial,2,mujer,49
 2026,80980212,inicial,1,hombre,32
@@ -152123,7 +152112,7 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,80980218,secundaria,6,hombre,21
 2026,80980218,secundaria,6,mujer,41
 2026,80980219,inicial,1,hombre,14
-2026,80980219,inicial,1,mujer,12
+2026,80980219,inicial,1,mujer,11
 2026,80980219,inicial,2,hombre,8
 2026,80980219,inicial,2,mujer,9
 2026,80980219,primaria,1,hombre,24
@@ -152535,7 +152524,6 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,80980248,primaria,6,mujer,60
 2026,80980249,secundaria,1,hombre,55
 2026,80980249,secundaria,1,mujer,52
-2026,80980249,secundaria,2,hombre,73
 2026,80980249,secundaria,2,mujer,45
 2026,80980249,secundaria,3,hombre,67
 2026,80980249,secundaria,3,mujer,52
@@ -153246,7 +153234,6 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,80980311,secundaria,3,hombre,8
 2026,80980311,secundaria,3,mujer,6
 2026,80980311,secundaria,4,hombre,9
-2026,80980311,secundaria,4,mujer,8
 2026,80980311,secundaria,5,hombre,9
 2026,80980311,secundaria,5,mujer,5
 2026,80980311,secundaria,6,hombre,16
@@ -153284,7 +153271,6 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,80980313,primaria,2,hombre,28
 2026,80980313,primaria,2,mujer,28
 2026,80980313,primaria,3,hombre,36
-2026,80980313,primaria,3,mujer,20
 2026,80980313,primaria,4,hombre,35
 2026,80980313,primaria,4,mujer,33
 2026,80980313,primaria,5,hombre,29
@@ -153307,7 +153293,6 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,80980314,secundaria,1,mujer,2
 2026,80980314,secundaria,2,hombre,18
 2026,80980314,secundaria,2,mujer,11
-2026,80980314,secundaria,3,hombre,32
 2026,80980314,secundaria,3,mujer,11
 2026,80980314,secundaria,4,hombre,52
 2026,80980314,secundaria,4,mujer,26
@@ -153336,7 +153321,6 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,80980322,secundaria,2,hombre,42
 2026,80980322,secundaria,2,mujer,28
 2026,80980322,secundaria,3,hombre,29
-2026,80980322,secundaria,3,mujer,31
 2026,80980322,secundaria,4,hombre,32
 2026,80980322,secundaria,4,mujer,30
 2026,80980322,secundaria,5,hombre,25
@@ -153369,7 +153353,6 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,80980323,secundaria,6,mujer,6
 2026,80980324,inicial,1,hombre,2
 2026,80980324,inicial,1,mujer,1
-2026,80980324,inicial,2,hombre,2
 2026,80980325,inicial,1,hombre,6
 2026,80980325,inicial,1,mujer,7
 2026,80980325,inicial,2,hombre,2
@@ -153436,7 +153419,6 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,80980328,primaria,2,mujer,12
 2026,80980328,primaria,3,hombre,11
 2026,80980328,primaria,3,mujer,18
-2026,80980328,primaria,4,hombre,11
 2026,80980328,primaria,4,mujer,10
 2026,80980328,primaria,5,hombre,11
 2026,80980328,primaria,5,mujer,27
@@ -153491,7 +153473,6 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,80980332,primaria,4,hombre,11
 2026,80980332,primaria,4,mujer,13
 2026,80980332,primaria,5,hombre,17
-2026,80980332,primaria,5,mujer,13
 2026,80980332,primaria,6,hombre,16
 2026,80980332,primaria,6,mujer,9
 2026,80980332,secundaria,1,hombre,9
@@ -153513,7 +153494,6 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,80980333,primaria,1,hombre,13
 2026,80980333,primaria,1,mujer,11
 2026,80980333,primaria,2,hombre,8
-2026,80980333,primaria,2,mujer,5
 2026,80980333,primaria,3,hombre,8
 2026,80980333,primaria,3,mujer,6
 2026,80980333,primaria,4,hombre,6
@@ -153562,7 +153542,6 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,80980335,primaria,3,mujer,10
 2026,80980335,primaria,4,hombre,9
 2026,80980335,primaria,4,mujer,17
-2026,80980335,primaria,5,hombre,12
 2026,80980335,primaria,5,mujer,12
 2026,80980335,primaria,6,hombre,12
 2026,80980335,primaria,6,mujer,6
@@ -154032,7 +154011,6 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,80980368,secundaria,3,mujer,35
 2026,80980368,secundaria,4,hombre,31
 2026,80980368,secundaria,4,mujer,35
-2026,80980368,secundaria,5,hombre,34
 2026,80980368,secundaria,5,mujer,33
 2026,80980368,secundaria,6,hombre,32
 2026,80980368,secundaria,6,mujer,35
@@ -154743,7 +154721,6 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,80980410,inicial,2,hombre,10
 2026,80980410,inicial,2,mujer,8
 2026,80980411,inicial,1,hombre,39
-2026,80980411,inicial,1,mujer,48
 2026,80980411,inicial,2,hombre,46
 2026,80980411,inicial,2,mujer,47
 2026,80980411,primaria,1,hombre,48
@@ -154761,7 +154738,6 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,80980411,secundaria,1,hombre,62
 2026,80980411,secundaria,1,mujer,64
 2026,80980411,secundaria,2,hombre,68
-2026,80980411,secundaria,2,mujer,60
 2026,80980411,secundaria,3,hombre,58
 2026,80980411,secundaria,3,mujer,71
 2026,80980411,secundaria,4,hombre,58
@@ -154920,7 +154896,6 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,80980425,secundaria,3,hombre,13
 2026,80980425,secundaria,3,mujer,5
 2026,80980425,secundaria,4,hombre,17
-2026,80980425,secundaria,4,mujer,9
 2026,80980425,secundaria,5,hombre,6
 2026,80980425,secundaria,5,mujer,6
 2026,80980425,secundaria,6,hombre,6
@@ -155531,7 +155506,6 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,80980502,primaria,1,hombre,37
 2026,80980502,primaria,1,mujer,26
 2026,80980502,primaria,2,hombre,40
-2026,80980502,primaria,2,mujer,36
 2026,80980502,primaria,3,hombre,46
 2026,80980502,primaria,3,mujer,38
 2026,80980502,primaria,4,hombre,42
@@ -155552,7 +155526,6 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,80980502,secundaria,5,mujer,37
 2026,80980502,secundaria,6,hombre,30
 2026,80980502,secundaria,6,mujer,30
-2026,80980503,inicial,1,hombre,10
 2026,80980503,inicial,1,mujer,13
 2026,80980503,inicial,2,hombre,5
 2026,80980503,inicial,2,mujer,4
@@ -155569,7 +155542,7 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,80980504,primaria,3,hombre,50
 2026,80980504,primaria,3,mujer,53
 2026,80980504,primaria,4,hombre,46
-2026,80980504,primaria,4,mujer,64
+2026,80980504,primaria,4,mujer,63
 2026,80980504,primaria,5,hombre,48
 2026,80980504,primaria,5,mujer,51
 2026,80980504,primaria,6,hombre,51
@@ -155699,7 +155672,6 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,80980514,secundaria,6,hombre,24
 2026,80980514,secundaria,6,mujer,18
 2026,80980515,inicial,1,hombre,19
-2026,80980515,inicial,1,mujer,16
 2026,80980515,inicial,2,hombre,17
 2026,80980515,inicial,2,mujer,21
 2026,80980515,primaria,1,hombre,30
@@ -156383,7 +156355,7 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,80980565,inicial,2,hombre,21
 2026,80980565,inicial,2,mujer,23
 2026,80980565,primaria,1,hombre,36
-2026,80980565,primaria,1,mujer,31
+2026,80980565,primaria,1,mujer,35
 2026,80980565,primaria,2,hombre,37
 2026,80980565,primaria,2,mujer,20
 2026,80980565,primaria,3,hombre,34
@@ -156911,6 +156883,7 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,80980654,primaria,5,mujer,11
 2026,80980654,primaria,6,hombre,12
 2026,80980654,primaria,6,mujer,9
+2026,80980654,secundaria,2,hombre,73
 2026,80980655,inicial,1,hombre,15
 2026,80980655,inicial,1,mujer,9
 2026,80980655,inicial,2,hombre,23
@@ -162725,7 +162698,7 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,81230125,primaria,3,hombre,23
 2026,81230125,primaria,3,mujer,18
 2026,81230125,primaria,4,hombre,29
-2026,81230125,primaria,4,mujer,29
+2026,81230125,primaria,4,mujer,30
 2026,81230125,primaria,5,hombre,26
 2026,81230125,primaria,5,mujer,28
 2026,81230125,primaria,6,hombre,21
@@ -163081,7 +163054,7 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,81230152,primaria,6,hombre,29
 2026,81230152,primaria,6,mujer,37
 2026,81230153,primaria,1,hombre,63
-2026,81230153,primaria,1,mujer,55
+2026,81230153,primaria,1,mujer,54
 2026,81230153,primaria,2,hombre,64
 2026,81230153,primaria,2,mujer,50
 2026,81230153,primaria,3,hombre,56
@@ -164497,7 +164470,7 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,81230308,primaria,1,mujer,23
 2026,81230308,primaria,2,hombre,21
 2026,81230308,primaria,2,mujer,29
-2026,81230308,primaria,3,hombre,20
+2026,81230308,primaria,3,hombre,18
 2026,81230308,primaria,3,mujer,28
 2026,81230308,primaria,4,hombre,26
 2026,81230308,primaria,4,mujer,23
@@ -179534,7 +179507,7 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,81480038,secundaria,1,mujer,8
 2026,81480038,secundaria,2,hombre,22
 2026,81480038,secundaria,2,mujer,8
-2026,81480038,secundaria,3,hombre,21
+2026,81480038,secundaria,3,hombre,22
 2026,81480038,secundaria,3,mujer,4
 2026,81480038,secundaria,4,hombre,15
 2026,81480038,secundaria,4,mujer,9
@@ -179722,7 +179695,7 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,81480055,secundaria,1,mujer,10
 2026,81480055,secundaria,2,hombre,16
 2026,81480055,secundaria,2,mujer,20
-2026,81480055,secundaria,3,hombre,30
+2026,81480055,secundaria,3,hombre,29
 2026,81480055,secundaria,3,mujer,25
 2026,81480055,secundaria,4,hombre,21
 2026,81480055,secundaria,4,mujer,26
@@ -180702,7 +180675,7 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,81480164,primaria,6,mujer,37
 2026,81480164,secundaria,1,hombre,45
 2026,81480164,secundaria,1,mujer,51
-2026,81480164,secundaria,2,hombre,63
+2026,81480164,secundaria,2,hombre,62
 2026,81480164,secundaria,2,mujer,40
 2026,81480164,secundaria,3,hombre,52
 2026,81480164,secundaria,3,mujer,45
@@ -181007,7 +180980,7 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,81480192,secundaria,6,mujer,3
 2026,81480193,secundaria,1,hombre,29
 2026,81480193,secundaria,1,mujer,30
-2026,81480193,secundaria,2,hombre,23
+2026,81480193,secundaria,2,hombre,24
 2026,81480193,secundaria,2,mujer,19
 2026,81480193,secundaria,3,hombre,21
 2026,81480193,secundaria,3,mujer,17
@@ -194413,6 +194386,7 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,81901008,primaria,2,mujer,1
 2026,81901008,primaria,3,hombre,2
 2026,81901008,primaria,3,mujer,3
+2026,81901008,primaria,4,hombre,1
 2026,81901008,primaria,4,mujer,3
 2026,81901008,primaria,5,hombre,6
 2026,81901008,primaria,5,mujer,4
@@ -195971,8 +195945,8 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,81930060,secundaria,4,mujer,8
 2026,81930060,secundaria,5,hombre,6
 2026,81930060,secundaria,5,mujer,6
-2026,81930060,secundaria,6,hombre,9
-2026,81930060,secundaria,6,mujer,11
+2026,81930060,secundaria,6,hombre,10
+2026,81930060,secundaria,6,mujer,10
 2026,81930061,primaria,1,mujer,1
 2026,81930062,inicial,1,hombre,1
 2026,81930062,primaria,1,hombre,1
@@ -199011,7 +198985,7 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,81960117,secundaria,1,hombre,15
 2026,81960117,secundaria,1,mujer,16
 2026,81960117,secundaria,2,hombre,12
-2026,81960117,secundaria,2,mujer,19
+2026,81960117,secundaria,2,mujer,20
 2026,81960117,secundaria,3,hombre,10
 2026,81960117,secundaria,3,mujer,16
 2026,81960117,secundaria,4,hombre,15
@@ -202176,7 +202150,7 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,81980044,primaria,4,mujer,10
 2026,81980044,primaria,5,hombre,11
 2026,81980044,primaria,5,mujer,7
-2026,81980044,primaria,6,hombre,15
+2026,81980044,primaria,6,hombre,16
 2026,81980044,primaria,6,mujer,9
 2026,81980044,secundaria,1,hombre,32
 2026,81980044,secundaria,1,mujer,28
@@ -203229,7 +203203,7 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,81980187,secundaria,1,hombre,43
 2026,81980187,secundaria,1,mujer,33
 2026,81980187,secundaria,2,hombre,45
-2026,81980187,secundaria,2,mujer,35
+2026,81980187,secundaria,2,mujer,36
 2026,81980187,secundaria,3,hombre,32
 2026,81980187,secundaria,3,mujer,42
 2026,81980187,secundaria,4,hombre,26
@@ -204002,7 +203976,7 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,81980340,primaria,1,mujer,19
 2026,81980340,primaria,2,hombre,19
 2026,81980340,primaria,2,mujer,15
-2026,81980340,primaria,3,hombre,22
+2026,81980340,primaria,3,hombre,23
 2026,81980340,primaria,3,mujer,23
 2026,81980340,primaria,4,hombre,24
 2026,81980340,primaria,4,mujer,34
@@ -204237,7 +204211,7 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,81980380,primaria,4,hombre,17
 2026,81980380,primaria,4,mujer,15
 2026,81980380,primaria,5,hombre,16
-2026,81980380,primaria,5,mujer,14
+2026,81980380,primaria,5,mujer,15
 2026,81980380,primaria,6,hombre,18
 2026,81980380,primaria,6,mujer,16
 2026,81980383,secundaria,1,hombre,79
@@ -204897,7 +204871,7 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,81980484,secundaria,4,hombre,38
 2026,81980484,secundaria,4,mujer,59
 2026,81980484,secundaria,5,hombre,52
-2026,81980484,secundaria,5,mujer,50
+2026,81980484,secundaria,5,mujer,51
 2026,81980484,secundaria,6,hombre,34
 2026,81980484,secundaria,6,mujer,45
 2026,81980485,secundaria,1,hombre,33
@@ -205706,7 +205680,7 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,81980607,primaria,4,mujer,69
 2026,81980607,primaria,5,hombre,57
 2026,81980607,primaria,5,mujer,52
-2026,81980607,primaria,6,hombre,57
+2026,81980607,primaria,6,hombre,58
 2026,81980607,primaria,6,mujer,61
 2026,81980614,secundaria,1,hombre,48
 2026,81980614,secundaria,1,mujer,58
@@ -206670,6 +206644,7 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,81980744,primaria,5,mujer,2
 2026,81980744,primaria,6,hombre,6
 2026,81980744,primaria,6,mujer,4
+2026,81980744,secundaria,4,mujer,18
 2026,81980745,inicial,1,hombre,13
 2026,81980745,inicial,1,mujer,19
 2026,81980745,inicial,2,hombre,16
@@ -206710,7 +206685,7 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,81980748,primaria,4,mujer,25
 2026,81980748,primaria,5,hombre,24
 2026,81980748,primaria,5,mujer,25
-2026,81980748,primaria,6,hombre,20
+2026,81980748,primaria,6,hombre,56
 2026,81980748,primaria,6,mujer,15
 2026,81980749,secundaria,1,hombre,29
 2026,81980749,secundaria,1,mujer,47
@@ -206924,7 +206899,7 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,81980774,inicial,2,mujer,32
 2026,81980774,primaria,1,hombre,46
 2026,81980774,primaria,1,mujer,47
-2026,81980774,primaria,2,hombre,62
+2026,81980774,primaria,2,hombre,103
 2026,81980774,primaria,2,mujer,38
 2026,81980774,primaria,3,hombre,50
 2026,81980774,primaria,3,mujer,46
@@ -207071,7 +207046,7 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,81980807,primaria,4,hombre,29
 2026,81980807,primaria,4,mujer,21
 2026,81980807,primaria,5,hombre,22
-2026,81980807,primaria,5,mujer,23
+2026,81980807,primaria,5,mujer,24
 2026,81980807,primaria,6,hombre,23
 2026,81980807,primaria,6,mujer,9
 2026,81980811,inicial,1,hombre,5
@@ -208160,7 +208135,7 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,81980980,secundaria,1,mujer,47
 2026,81980980,secundaria,2,hombre,54
 2026,81980980,secundaria,2,mujer,42
-2026,81980980,secundaria,3,hombre,45
+2026,81980980,secundaria,3,hombre,46
 2026,81980980,secundaria,3,mujer,54
 2026,81980980,secundaria,4,hombre,57
 2026,81980980,secundaria,4,mujer,57
@@ -208662,7 +208637,7 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,81981047,primaria,6,mujer,9
 2026,81981047,secundaria,1,hombre,18
 2026,81981047,secundaria,1,mujer,13
-2026,81981047,secundaria,2,hombre,14
+2026,81981047,secundaria,2,hombre,15
 2026,81981047,secundaria,2,mujer,20
 2026,81981047,secundaria,3,hombre,16
 2026,81981047,secundaria,3,mujer,7
@@ -208775,7 +208750,7 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,81981052,secundaria,1,hombre,18
 2026,81981052,secundaria,1,mujer,8
 2026,81981052,secundaria,2,hombre,22
-2026,81981052,secundaria,2,mujer,4
+2026,81981052,secundaria,2,mujer,5
 2026,81981052,secundaria,3,hombre,15
 2026,81981052,secundaria,3,mujer,11
 2026,81981052,secundaria,4,hombre,9
@@ -208956,7 +208931,7 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,81981071,primaria,4,hombre,8
 2026,81981071,primaria,4,mujer,8
 2026,81981071,primaria,5,hombre,16
-2026,81981071,primaria,5,mujer,8
+2026,81981071,primaria,5,mujer,9
 2026,81981071,primaria,6,hombre,7
 2026,81981071,primaria,6,mujer,12
 2026,81981071,secundaria,1,hombre,9
@@ -209144,7 +209119,7 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,81981091,primaria,1,hombre,10
 2026,81981091,primaria,1,mujer,15
 2026,81981091,primaria,2,hombre,9
-2026,81981091,primaria,2,mujer,19
+2026,81981091,primaria,2,mujer,20
 2026,81981091,primaria,3,hombre,11
 2026,81981091,primaria,3,mujer,11
 2026,81981091,primaria,4,hombre,7
@@ -209180,7 +209155,7 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,81981092,secundaria,1,hombre,33
 2026,81981092,secundaria,1,mujer,49
 2026,81981092,secundaria,2,hombre,42
-2026,81981092,secundaria,2,mujer,41
+2026,81981092,secundaria,2,mujer,42
 2026,81981092,secundaria,3,hombre,27
 2026,81981092,secundaria,3,mujer,58
 2026,81981092,secundaria,4,hombre,33
@@ -209287,7 +209262,7 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,81981096,primaria,4,mujer,31
 2026,81981096,primaria,5,hombre,28
 2026,81981096,primaria,5,mujer,38
-2026,81981096,primaria,6,hombre,32
+2026,81981096,primaria,6,hombre,33
 2026,81981096,primaria,6,mujer,31
 2026,81981096,secundaria,1,hombre,26
 2026,81981096,secundaria,1,mujer,37
@@ -210171,13 +210146,13 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,81981158,primaria,1,hombre,22
 2026,81981158,primaria,1,mujer,21
 2026,81981158,primaria,2,hombre,30
-2026,81981158,primaria,2,mujer,23
+2026,81981158,primaria,2,mujer,24
 2026,81981158,primaria,3,hombre,23
 2026,81981158,primaria,3,mujer,24
 2026,81981158,primaria,4,hombre,30
 2026,81981158,primaria,4,mujer,26
 2026,81981158,primaria,5,hombre,23
-2026,81981158,primaria,5,mujer,21
+2026,81981158,primaria,5,mujer,22
 2026,81981158,primaria,6,hombre,35
 2026,81981158,primaria,6,mujer,28
 2026,81981158,secundaria,1,hombre,34
@@ -210185,7 +210160,7 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,81981158,secundaria,2,hombre,25
 2026,81981158,secundaria,2,mujer,52
 2026,81981158,secundaria,3,hombre,45
-2026,81981158,secundaria,3,mujer,34
+2026,81981158,secundaria,3,mujer,35
 2026,81981158,secundaria,4,hombre,45
 2026,81981158,secundaria,4,mujer,48
 2026,81981158,secundaria,5,hombre,53
@@ -210200,7 +210175,7 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,81981159,primaria,1,mujer,8
 2026,81981159,primaria,2,hombre,7
 2026,81981159,primaria,2,mujer,11
-2026,81981159,primaria,3,hombre,13
+2026,81981159,primaria,3,hombre,14
 2026,81981159,primaria,3,mujer,8
 2026,81981159,primaria,4,hombre,7
 2026,81981159,primaria,4,mujer,14
@@ -210343,7 +210318,7 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,81981165,primaria,5,hombre,19
 2026,81981165,primaria,5,mujer,14
 2026,81981165,primaria,6,hombre,5
-2026,81981165,primaria,6,mujer,17
+2026,81981165,primaria,6,mujer,18
 2026,81981165,secundaria,1,hombre,50
 2026,81981165,secundaria,1,mujer,36
 2026,81981165,secundaria,2,hombre,38
@@ -210844,7 +210819,7 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,81981212,primaria,3,mujer,15
 2026,81981212,primaria,4,hombre,18
 2026,81981212,primaria,4,mujer,25
-2026,81981212,primaria,5,hombre,16
+2026,81981212,primaria,5,hombre,17
 2026,81981212,primaria,5,mujer,11
 2026,81981212,primaria,6,hombre,17
 2026,81981212,primaria,6,mujer,20
@@ -212260,7 +212235,7 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,81981339,primaria,4,hombre,35
 2026,81981339,primaria,4,mujer,32
 2026,81981339,primaria,5,hombre,36
-2026,81981339,primaria,5,mujer,21
+2026,81981339,primaria,5,mujer,22
 2026,81981339,primaria,6,hombre,33
 2026,81981339,primaria,6,mujer,30
 2026,81981340,inicial,2,hombre,35
@@ -212431,11 +212406,11 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,81981346,primaria,6,mujer,48
 2026,81981346,secundaria,1,hombre,54
 2026,81981346,secundaria,1,mujer,40
-2026,81981346,secundaria,2,hombre,44
+2026,81981346,secundaria,2,hombre,46
 2026,81981346,secundaria,2,mujer,41
 2026,81981346,secundaria,3,hombre,39
 2026,81981346,secundaria,3,mujer,52
-2026,81981346,secundaria,4,hombre,38
+2026,81981346,secundaria,4,hombre,39
 2026,81981346,secundaria,4,mujer,44
 2026,81981346,secundaria,5,hombre,44
 2026,81981346,secundaria,5,mujer,46
@@ -212992,7 +212967,7 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,81981375,primaria,4,hombre,65
 2026,81981375,primaria,4,mujer,70
 2026,81981375,primaria,5,hombre,63
-2026,81981375,primaria,5,mujer,76
+2026,81981375,primaria,5,mujer,77
 2026,81981375,primaria,6,hombre,81
 2026,81981375,primaria,6,mujer,73
 2026,81981376,inicial,2,hombre,42
@@ -213030,7 +213005,7 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,81981378,secundaria,2,hombre,54
 2026,81981378,secundaria,2,mujer,48
 2026,81981378,secundaria,3,hombre,47
-2026,81981378,secundaria,3,mujer,42
+2026,81981378,secundaria,3,mujer,43
 2026,81981378,secundaria,4,hombre,41
 2026,81981378,secundaria,4,mujer,31
 2026,81981378,secundaria,5,hombre,19
@@ -213745,7 +213720,7 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,81981419,secundaria,1,hombre,65
 2026,81981419,secundaria,1,mujer,59
 2026,81981419,secundaria,2,hombre,48
-2026,81981419,secundaria,2,mujer,57
+2026,81981419,secundaria,2,mujer,58
 2026,81981419,secundaria,3,hombre,53
 2026,81981419,secundaria,3,mujer,49
 2026,81981419,secundaria,4,hombre,47
@@ -214414,15 +214389,15 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,81981507,primaria,1,hombre,23
 2026,81981507,primaria,1,mujer,11
 2026,81981507,primaria,2,hombre,18
-2026,81981507,primaria,2,mujer,20
-2026,81981507,primaria,3,hombre,9
-2026,81981507,primaria,3,mujer,9
+2026,81981507,primaria,2,mujer,21
+2026,81981507,primaria,3,hombre,10
+2026,81981507,primaria,3,mujer,10
 2026,81981507,primaria,4,hombre,6
 2026,81981507,primaria,4,mujer,3
 2026,81981507,primaria,5,hombre,15
 2026,81981507,primaria,5,mujer,3
 2026,81981507,primaria,6,hombre,6
-2026,81981507,primaria,6,mujer,2
+2026,81981507,primaria,6,mujer,4
 2026,81981508,secundaria,1,hombre,42
 2026,81981508,secundaria,1,mujer,30
 2026,81981508,secundaria,2,hombre,36
@@ -215295,7 +215270,6 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,81981593,secundaria,3,hombre,26
 2026,81981593,secundaria,3,mujer,23
 2026,81981593,secundaria,4,hombre,15
-2026,81981593,secundaria,4,mujer,18
 2026,81981593,secundaria,5,hombre,8
 2026,81981593,secundaria,5,mujer,15
 2026,81981593,secundaria,6,hombre,9
@@ -215315,16 +215289,16 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,81981595,inicial,2,hombre,38
 2026,81981595,inicial,2,mujer,38
 2026,81981595,primaria,1,hombre,36
-2026,81981595,primaria,1,mujer,46
+2026,81981595,primaria,1,mujer,45
 2026,81981595,primaria,2,hombre,49
 2026,81981595,primaria,2,mujer,37
 2026,81981595,primaria,3,hombre,45
 2026,81981595,primaria,3,mujer,44
-2026,81981595,primaria,4,hombre,43
+2026,81981595,primaria,4,hombre,42
 2026,81981595,primaria,4,mujer,42
 2026,81981595,primaria,5,hombre,53
 2026,81981595,primaria,5,mujer,50
-2026,81981595,primaria,6,hombre,52
+2026,81981595,primaria,6,hombre,51
 2026,81981595,primaria,6,mujer,45
 2026,81981596,secundaria,1,hombre,24
 2026,81981596,secundaria,1,mujer,17
@@ -215428,7 +215402,6 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,81981602,primaria,4,mujer,26
 2026,81981602,primaria,5,hombre,41
 2026,81981602,primaria,5,mujer,36
-2026,81981602,primaria,6,hombre,36
 2026,81981602,primaria,6,mujer,36
 2026,81981604,inicial,1,hombre,5
 2026,81981604,inicial,1,mujer,4
@@ -215746,11 +215719,11 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,81981653,secundaria,5,mujer,36
 2026,81981653,secundaria,6,hombre,26
 2026,81981653,secundaria,6,mujer,27
-2026,81981654,secundaria,1,hombre,46
+2026,81981654,secundaria,1,hombre,47
 2026,81981654,secundaria,1,mujer,59
 2026,81981654,secundaria,2,hombre,51
-2026,81981654,secundaria,2,mujer,41
-2026,81981654,secundaria,3,hombre,36
+2026,81981654,secundaria,2,mujer,42
+2026,81981654,secundaria,3,hombre,37
 2026,81981654,secundaria,3,mujer,23
 2026,81981654,secundaria,4,hombre,21
 2026,81981654,secundaria,4,mujer,22
@@ -215779,7 +215752,7 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,81981656,secundaria,2,hombre,46
 2026,81981656,secundaria,2,mujer,47
 2026,81981656,secundaria,3,hombre,47
-2026,81981656,secundaria,3,mujer,36
+2026,81981656,secundaria,3,mujer,37
 2026,81981656,secundaria,4,hombre,27
 2026,81981656,secundaria,4,mujer,32
 2026,81981656,secundaria,5,hombre,25
@@ -215844,7 +215817,6 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,81981663,inicial,2,mujer,17
 2026,81981663,primaria,1,hombre,34
 2026,81981663,primaria,1,mujer,36
-2026,81981663,primaria,2,hombre,41
 2026,81981663,primaria,2,mujer,41
 2026,81981663,primaria,3,hombre,37
 2026,81981663,primaria,3,mujer,46
@@ -215886,13 +215858,13 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,81981667,primaria,5,mujer,7
 2026,81981667,primaria,6,hombre,16
 2026,81981667,primaria,6,mujer,5
-2026,81981667,secundaria,1,hombre,15
+2026,81981667,secundaria,1,hombre,16
 2026,81981667,secundaria,1,mujer,21
 2026,81981667,secundaria,2,hombre,11
 2026,81981667,secundaria,2,mujer,15
 2026,81981667,secundaria,3,hombre,11
 2026,81981667,secundaria,3,mujer,9
-2026,81981667,secundaria,4,hombre,16
+2026,81981667,secundaria,4,hombre,17
 2026,81981667,secundaria,4,mujer,15
 2026,81981667,secundaria,5,hombre,13
 2026,81981667,secundaria,5,mujer,11
@@ -216297,7 +216269,7 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,81981748,primaria,6,mujer,12
 2026,81981748,secundaria,1,hombre,15
 2026,81981748,secundaria,1,mujer,10
-2026,81981748,secundaria,2,hombre,17
+2026,81981748,secundaria,2,hombre,18
 2026,81981748,secundaria,2,mujer,11
 2026,81981748,secundaria,3,hombre,16
 2026,81981748,secundaria,3,mujer,14
@@ -216317,7 +216289,7 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,81981750,primaria,2,mujer,5
 2026,81981750,primaria,3,hombre,13
 2026,81981750,primaria,3,mujer,7
-2026,81981750,primaria,4,hombre,15
+2026,81981750,primaria,4,hombre,16
 2026,81981750,primaria,4,mujer,7
 2026,81981750,primaria,5,hombre,10
 2026,81981750,primaria,5,mujer,5
@@ -223847,10 +223819,10 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,82230007,secundaria,6,hombre,31
 2026,82230007,secundaria,6,mujer,47
 2026,82230008,primaria,1,hombre,16
-2026,82230008,primaria,1,mujer,13
+2026,82230008,primaria,1,mujer,14
 2026,82230008,primaria,2,hombre,15
 2026,82230008,primaria,2,mujer,14
-2026,82230008,primaria,3,hombre,22
+2026,82230008,primaria,3,hombre,24
 2026,82230008,primaria,3,mujer,8
 2026,82230008,primaria,4,hombre,19
 2026,82230008,primaria,4,mujer,17
@@ -223918,7 +223890,7 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,82230012,inicial,1,mujer,14
 2026,82230012,inicial,2,hombre,19
 2026,82230012,inicial,2,mujer,13
-2026,82230012,primaria,1,hombre,24
+2026,82230012,primaria,1,hombre,23
 2026,82230012,primaria,1,mujer,19
 2026,82230012,primaria,2,hombre,35
 2026,82230012,primaria,2,mujer,24
@@ -224112,7 +224084,7 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,82230021,primaria,3,mujer,33
 2026,82230021,primaria,4,hombre,38
 2026,82230021,primaria,4,mujer,28
-2026,82230021,primaria,5,hombre,27
+2026,82230021,primaria,5,hombre,28
 2026,82230021,primaria,5,mujer,38
 2026,82230021,primaria,6,hombre,34
 2026,82230021,primaria,6,mujer,15
@@ -224168,7 +224140,7 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,82230023,primaria,3,mujer,26
 2026,82230023,primaria,4,hombre,36
 2026,82230023,primaria,4,mujer,27
-2026,82230023,primaria,5,hombre,27
+2026,82230023,primaria,5,hombre,26
 2026,82230023,primaria,5,mujer,29
 2026,82230023,primaria,6,hombre,31
 2026,82230023,primaria,6,mujer,35
@@ -224625,7 +224597,7 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,82230053,inicial,1,mujer,15
 2026,82230053,inicial,2,hombre,23
 2026,82230053,inicial,2,mujer,10
-2026,82230053,primaria,1,hombre,29
+2026,82230053,primaria,1,hombre,30
 2026,82230053,primaria,1,mujer,26
 2026,82230053,primaria,2,hombre,37
 2026,82230053,primaria,2,mujer,24
@@ -224660,7 +224632,6 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,82230054,primaria,3,hombre,3
 2026,82230054,primaria,3,mujer,11
 2026,82230054,primaria,4,hombre,15
-2026,82230054,primaria,4,mujer,8
 2026,82230054,primaria,5,hombre,8
 2026,82230054,primaria,5,mujer,5
 2026,82230054,primaria,6,hombre,9
@@ -225231,7 +225202,7 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,82230101,secundaria,2,mujer,6
 2026,82230101,secundaria,3,hombre,10
 2026,82230101,secundaria,3,mujer,7
-2026,82230101,secundaria,4,hombre,9
+2026,82230101,secundaria,4,hombre,10
 2026,82230101,secundaria,4,mujer,10
 2026,82230101,secundaria,5,hombre,10
 2026,82230101,secundaria,5,mujer,4
@@ -225344,7 +225315,6 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,82230118,primaria,6,mujer,30
 2026,82230118,secundaria,1,hombre,47
 2026,82230118,secundaria,1,mujer,28
-2026,82230118,secundaria,2,hombre,32
 2026,82230118,secundaria,2,mujer,46
 2026,82230118,secundaria,3,hombre,42
 2026,82230118,secundaria,3,mujer,28
@@ -225386,7 +225356,6 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,82230122,primaria,2,mujer,13
 2026,82230122,primaria,3,hombre,11
 2026,82230122,primaria,3,mujer,10
-2026,82230122,primaria,4,hombre,11
 2026,82230122,primaria,4,mujer,7
 2026,82230122,primaria,5,hombre,10
 2026,82230122,primaria,5,mujer,7
@@ -225412,10 +225381,8 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,82230123,primaria,4,mujer,14
 2026,82230123,primaria,5,hombre,20
 2026,82230123,primaria,5,mujer,15
-2026,82230123,primaria,6,hombre,19
 2026,82230123,primaria,6,mujer,17
 2026,82230123,secundaria,1,hombre,18
-2026,82230123,secundaria,1,mujer,18
 2026,82230123,secundaria,2,hombre,20
 2026,82230123,secundaria,2,mujer,16
 2026,82230123,secundaria,3,hombre,10
@@ -225540,7 +225507,7 @@ gestion,rue,nivel,grado,sexo,estudiantes
 2026,82230136,secundaria,2,mujer,44
 2026,82230136,secundaria,3,hombre,34
 2026,82230136,secundaria,3,mujer,37
-2026,82230136,secundaria,4,hombre,32
+2026,82230136,secundaria,4,hombre,31
 2026,82230136,secundaria,4,mujer,42
 2026,82230136,secundaria,5,hombre,30
 2026,82230136,secundaria,5,mujer,44
